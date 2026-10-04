@@ -3,25 +3,40 @@ plugins {
     id 'net.neoforged.moddev' version '2.0.141'
 }
 
-version = '1.0.0-neoforge.2'
-group = 'io.github.achilleus1'
-base { archivesName = 'grand-theft-neo-port-1.21.1' }
+version = mod_version
+group = mod_group_id
+base { archivesName = "${mod_archive_name}-${minecraft_version}" }
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(21)
+    toolchain.languageVersion = JavaLanguageVersion.of(java_version as int)
 }
 neoForge {
-    version = '21.1.255'
+    version = neo_version
+    runs {
+        client { client() }
+    }
     mods {
-        gtalike_teleport { sourceSet(sourceSets.main) }
+        "${mod_id}" { sourceSet(sourceSets.main) }
     }
 }
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
-    options.release = 21
+    options.release = java_version as int
 }
 jar {
-    manifest.attributes('Implementation-Title': 'Grand Theft Neo Port',
+    from('LICENSE')
+    manifest.attributes('Implementation-Title': mod_name,
         'Implementation-Version': project.version)
 }
 
-jar { from('LICENSE') }
+// Keep packaged mod metadata in sync with gradle.properties.
+def modProperties = [
+    'minecraft_version_range', 'neo_version_range', 'loader_version_range',
+    'mod_id', 'mod_name', 'mod_version', 'mod_license', 'mod_authors'
+].collectEntries { name -> [(name): project.property(name)] }
+
+tasks.named('processResources', ProcessResources) {
+    inputs.properties(modProperties)
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand(modProperties)
+    }
+}

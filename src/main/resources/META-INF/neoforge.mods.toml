@@ -1,32 +1,32 @@
 modLoader="javafml"
-loaderVersion="[4,)"
-license="MIT"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
 issueTrackerURL="https://github.com/Achilleus-1/Akis-GrandTheftNeoPort/issues"
 
 [[mods]]
-modId="gtalike_teleport"
-version="1.0.0-neoforge.2"
-displayName="Grand Theft Neo Port"
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
 displayURL="https://linktr.ee/achilleus_"
 logoFile="assets/achilleus/achilleus-logo-white.png"
-authors="Achilleus (Achilleus-1), NeoForge port and maintenance"
+authors="${mod_authors}"
 credits="hookuru_, original Grand Teleport; upstream acknowledges Codex-assisted development"
 description='''Product of Achilleus.
 https://linktr.ee/achilleus_
 
 Cinematic camera transitions for teleports. NeoForge 1.21.1 port and rebranding by Achilleus, based on Grand Teleport by hookuru_. Uses Minecraft sound replacements.'''
 
-[[dependencies.gtalike_teleport]]
+[[dependencies.${mod_id}]]
 modId="neoforge"
 type="required"
-versionRange="[21.1.255,21.2)"
+versionRange="${neo_version_range}"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.gtalike_teleport]]
+[[dependencies.${mod_id}]]
 modId="minecraft"
 type="required"
-versionRange="[1.21.1]"
+versionRange="${minecraft_version_range}"
 ordering="NONE"
 side="BOTH"
 
