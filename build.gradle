@@ -1,0 +1,28 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+version = '1.0.0-neoforge.1'
+group = 'io.github.achilleus1'
+base { archivesName = 'grand-theft-neo-port-1.21.1' }
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+    withSourcesJar()
+}
+neoForge {
+    version = '21.1.255'
+    mods {
+        gtalike_teleport { sourceSet(sourceSets.main) }
+    }
+}
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+jar {
+    manifest.attributes('Implementation-Title': 'Grand Theft Neo Port',
+        'Implementation-Version': project.version)
+}
+
+jar { from('LICENSE') }

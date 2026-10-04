@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "dev.codex.gtaliketeleport.mixin",
+  "plugin": "dev.codex.gtaliketeleport.mixin.GtaLikeTeleportMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ServerPlayerMixin",
+    "WaystonesWarpPlateBlockEntityMixin",
+    "WaystonesPlayerWaystoneManagerMixin"
+  ],
+  "client": [
+    "CameraAccessor",
+    "CameraMixin",
+    "ClientPacketListenerMixin",
+    "ConnectionMixin",
+    "EntityRendererMixin",
+    "DistantHorizonsRenderUtilMixin",
+    "FogRendererMixin",
+    "FrustumMixin",
+    "GameRendererMixin",
+    "JourneyMapClientNetworkDispatcherMixin",
+    "LeawindThirdPersonCameraAgentMixin",
+    "LeawindThirdPersonImplMixin",
+    "LeawindThirdPersonLegacyMixin",
+    "LevelRendererMixin",
+    "KeyboardInputMixin",
+    "MouseHandlerMixin",
+    "MinecraftMixin",
+    "ScreenEffectRendererMixin",
+    "VoxyClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

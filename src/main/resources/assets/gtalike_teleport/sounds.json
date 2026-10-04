@@ -1,0 +1,58 @@
+{
+  "teleport.camera_in": {
+    "sounds": [
+      {
+        "name": "minecraft:block.portal.travel",
+        "type": "event"
+      }
+    ]
+  },
+  "teleport.camera_out": {
+    "sounds": [
+      {
+        "name": "minecraft:block.portal.trigger",
+        "type": "event"
+      }
+    ]
+  },
+  "teleport.teleport": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.enderman.teleport",
+        "type": "event"
+      }
+    ]
+  },
+  "teleport.zoom_in_long": {
+    "sounds": [
+      {
+        "name": "minecraft:block.portal.travel",
+        "type": "event"
+      }
+    ]
+  },
+  "teleport.zoom_in_short": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.enderman.teleport",
+        "type": "event"
+      }
+    ]
+  },
+  "teleport.zoom_out_long": {
+    "sounds": [
+      {
+        "name": "minecraft:block.portal.trigger",
+        "type": "event"
+      }
+    ]
+  },
+  "teleport.zoom_out_short": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.enderman.teleport",
+        "type": "event"
+      }
+    ]
+  }
+}
