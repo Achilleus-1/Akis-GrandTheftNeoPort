@@ -19,3 +19,7 @@ Launch the development client with `./gradlew runClient` or `.\gradlew.bat runCl
 ## Credits and license
 
 Based on [Grand Teleport](https://github.com/hookuru/GrandTeleport) by hookuru_ (upstream credits Codex-assisted development). Original copyright and license notices are retained in [LICENSE](LICENSE) and packaged resources. Port modifications are MIT licensed; Achilleus supplied the replacement branding.
+
+## Development and reuse
+
+See [DEVELOPMENT.md](DEVELOPMENT.md) for reproducible checks and known archival dependencies, [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance, and [SECURITY.md](SECURITY.md) for private reports.
