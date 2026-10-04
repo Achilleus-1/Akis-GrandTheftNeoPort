@@ -3,7 +3,7 @@ plugins {
     id 'net.neoforged.moddev' version '2.0.141'
 }
 
-version = '1.0.0-neoforge.1'
+version = '1.0.0-neoforge.2'
 group = 'io.github.achilleus1'
 base { archivesName = 'grand-theft-neo-port-1.21.1' }
 java {

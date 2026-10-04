@@ -19,6 +19,12 @@ Not exercised: actual teleport transitions/audio, dedicated multiplayer, Wayston
 
 ## Artifacts
 
-Version: `1.0.0-neoforge.1`. SHA-256 hashes of the runtime and source JARs are in [SHA256SUMS.txt](SHA256SUMS.txt).
+Version: `1.0.0-neoforge.2`. SHA-256 hashes of the runtime and source JARs are in [SHA256SUMS.txt](SHA256SUMS.txt).
 
 The historical PORT-NOTES and, where present, VALIDATION-ORIGINAL describe the earlier unbranded port and its older target/artifact hashes. This file describes the renamed edition.
+
+## Branding update (1.0.0-neoforge.2)
+
+The supplied black and white Achilleus logos replace the original mod icon. Both are copied unchanged and the white version is selected in mod metadata. Documentation uses theme-specific logos, the tagline “Product of Achilleus”, brand color `#ba0239`, a serif tagline, and the Linktree URL.
+
+This edition was rebuilt against NeoForge 21.1.255. Packaged metadata, exact logo file hashes, preserved credits/licenses, ZIP integrity, source JARs, and checksums were checked. The runtime and gameplay checks above were performed on the preceding edition; they were not repeated for this branding update.

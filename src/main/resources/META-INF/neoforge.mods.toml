@@ -5,13 +5,16 @@ issueTrackerURL="https://github.com/Achilleus-1/Akis-GrandTheftNeoPort/issues"
 
 [[mods]]
 modId="gtalike_teleport"
-version="1.0.0-neoforge.1"
+version="1.0.0-neoforge.2"
 displayName="Grand Theft Neo Port"
-displayURL="https://github.com/Achilleus-1/Akis-GrandTheftNeoPort"
-logoFile="assets/gtalike_teleport/icon.png"
+displayURL="https://linktr.ee/achilleus_"
+logoFile="assets/achilleus/achilleus-logo-white.png"
 authors="Achilleus (Achilleus-1), NeoForge port and maintenance"
 credits="hookuru_, original Grand Teleport; upstream acknowledges Codex-assisted development"
-description='''Cinematic camera transitions for teleports. NeoForge 1.21.1 port and rebranding by Achilleus, based on Grand Teleport by hookuru_. Uses Minecraft sound replacements.'''
+description='''Product of Achilleus.
+https://linktr.ee/achilleus_
+
+Cinematic camera transitions for teleports. NeoForge 1.21.1 port and rebranding by Achilleus, based on Grand Teleport by hookuru_. Uses Minecraft sound replacements.'''
 
 [[dependencies.gtalike_teleport]]
 modId="neoforge"

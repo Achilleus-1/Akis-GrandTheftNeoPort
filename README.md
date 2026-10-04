@@ -1,3 +1,15 @@
+<p align="center">
+  <a href="https://linktr.ee/achilleus_">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="src/main/resources/assets/achilleus/achilleus-logo-white.png">
+      <source media="(prefers-color-scheme: light)" srcset="src/main/resources/assets/achilleus/achilleus-logo-black.png">
+      <img src="src/main/resources/assets/achilleus/achilleus-logo-black.png" alt="Achilleus logo" width="180" height="180">
+    </picture>
+  </a>
+  <br>
+  <a href="https://linktr.ee/achilleus_"><img src="docs/branding/tagline.svg" alt="Product of Achilleus" width="360" height="50"></a>
+</p>
+
 # Grand Theft Neo Port
 
 **NeoForge port and maintenance by [Achilleus (Achilleus-1)](https://github.com/Achilleus-1).**
@@ -9,7 +21,7 @@ Adds a GTA-style camera pull-out, travel, and return around teleports. Includes 
 
 Requires **Minecraft 1.21.1**, **NeoForge 21.1.255** (dependency range: 21.1.255 to below 21.2), and **Java 21**.
 
-Download `grand-theft-neo-port-1.21.1-1.0.0-neoforge.1.jar` from [Releases](https://github.com/Achilleus-1/Akis-GrandTheftNeoPort/releases) and place it in your instance's `mods` folder. Remove older/original copies of Grand Teleport before installing this port.
+Download `grand-theft-neo-port-1.21.1-1.0.0-neoforge.2.jar` from [Releases](https://github.com/Achilleus-1/Akis-GrandTheftNeoPort/releases) and place it in your instance's `mods` folder. Remove older/original copies of Grand Teleport before installing this port.
 
 Open settings from the NeoForge Mods screen or `/gtp config`. Commands `/gtp` and `/grandtp` retain `on`, `off`, `status`, and `player_freeze` controls.
 
@@ -35,4 +47,4 @@ See [VALIDATION.md](VALIDATION.md) for verification of this edition. [PORT-NOTES
 
 ## Credits and license
 
-See [CREDITS.md](CREDITS.md) and [LICENSE](LICENSE). Achilleus maintains the NeoForge port; original authors retain credit for their work. This is an unofficial port. Original logos remain temporarily until replacement branding is supplied.
+See [CREDITS.md](CREDITS.md) and [LICENSE](LICENSE). Achilleus maintains the NeoForge port; original authors retain credit for their work. This is an unofficial port. Achilleus branding is used for this edition. [Links and profiles](https://linktr.ee/achilleus_).
