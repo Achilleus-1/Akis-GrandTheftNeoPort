@@ -8,7 +8,6 @@ group = 'io.github.achilleus1'
 base { archivesName = 'grand-theft-neo-port-1.21.1' }
 java {
     toolchain.languageVersion = JavaLanguageVersion.of(21)
-    withSourcesJar()
 }
 neoForge {
     version = '21.1.255'
