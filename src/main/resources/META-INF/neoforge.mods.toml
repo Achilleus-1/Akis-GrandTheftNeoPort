@@ -10,11 +10,11 @@ displayName="${mod_name}"
 displayURL="https://linktr.ee/achilleus_"
 logoFile="assets/achilleus/achilleus-logo-white.png"
 authors="${mod_authors}"
-credits="hookuru_, original Grand Teleport; upstream acknowledges Codex-assisted development"
+credits="Ported from Grand Teleport by hookuru_."
 description='''Product of Achilleus.
 https://linktr.ee/achilleus_
 
-Cinematic camera transitions for teleports. NeoForge 1.21.1 port and rebranding by Achilleus, based on Grand Teleport by hookuru_. Uses Minecraft sound replacements.'''
+Cinematic camera transitions for teleports. Uses Minecraft sound replacements. Created and maintained by Achilleus for NeoForge 1.21.1.'''
 
 [[dependencies.${mod_id}]]
 modId="neoforge"
